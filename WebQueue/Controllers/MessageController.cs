@@ -39,6 +39,7 @@ namespace WebQueue.Controllers
                 }
                 );
             }
+            else throw new ArgumentNullException("Argument must not be null");
         }
     }
 }
