@@ -47,6 +47,12 @@ namespace CustomCollectionService
             return result;
         }
 
+
+        public void Clean()
+        {
+            _values = new T[0];
+        }
+
         public IEnumerator<T> GetEnumerator()
         {
             throw new NotImplementedException();

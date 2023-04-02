@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCollectionService", "CustomCollectionService\CustomCollectionService.csproj", "{6DC4B2C3-699F-4B31-8D9D-48B741C3666A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomCollectionService", "CustomCollectionService\CustomCollectionService.csproj", "{6DC4B2C3-699F-4B31-8D9D-48B741C3666A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebQueue", "WebQueue\WebQueue.csproj", "{E8D03BEA-EA0B-4FC2-B0B1-3C2F776B6928}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebQueue", "WebQueue\WebQueue.csproj", "{E8D03BEA-EA0B-4FC2-B0B1-3C2F776B6928}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaveProcessTriggerService", "TimerService\SaveProcessTriggerService.csproj", "{A8F632AF-F4D8-47DF-A1DE-35BA65D99F62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E8D03BEA-EA0B-4FC2-B0B1-3C2F776B6928}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8D03BEA-EA0B-4FC2-B0B1-3C2F776B6928}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8D03BEA-EA0B-4FC2-B0B1-3C2F776B6928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F632AF-F4D8-47DF-A1DE-35BA65D99F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F632AF-F4D8-47DF-A1DE-35BA65D99F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F632AF-F4D8-47DF-A1DE-35BA65D99F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F632AF-F4D8-47DF-A1DE-35BA65D99F62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
